@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "stephenlawrence/node-web-app:v1",
+    "Name": "stephenlawrence/node-web-app",
     "Update": "true"
   },
   "Ports": [
