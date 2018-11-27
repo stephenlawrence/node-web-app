@@ -26,5 +26,4 @@ artifacts:
     - node/package-lock.json
     - node/server.js
     - node/.dockerignore
-    - remote-docker/.gitignore
-    - remote-docker/Dockerrun.aws.json
+    - Dockerrun.aws.json
