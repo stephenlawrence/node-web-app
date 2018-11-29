@@ -32,6 +32,11 @@ Copy each of the tfvars.sample files and update the values accordingly.
 
 `terraform apply`
 
+### Test
+
+Visit the Elastic Beanstalk app url and add /time to the end to hit the time route.
+Ex:  http://citrus-dev-node-demo.mcc3ydaae8.us-east-1.elasticbeanstalk.com/time
+
 ## Updates
 
 Make any needed changes to the files and run `terraform plan` then `terraform apply`
