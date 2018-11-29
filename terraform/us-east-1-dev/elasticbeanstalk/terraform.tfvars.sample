@@ -1,0 +1,11 @@
+profile="<aws cli profile name>"
+region = "us-east-1"
+namespace = "<your namespace>"
+stage = "development"
+description = "Test Node App"
+instance_type = "t2.micro"
+application_name="<app name for beanstalk>"
+application_description = "Simple Node Demo"
+application_environment = "development"
+autoscale_min = 1
+autoscale_max = 2
