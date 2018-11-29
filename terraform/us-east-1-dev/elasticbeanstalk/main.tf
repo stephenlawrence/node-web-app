@@ -53,6 +53,7 @@ module "elastic_beanstalk_environment" {
   security_groups     = ["${module.vpc.vpc_default_security_group_id}"]
   solution_stack_name = "${var.solution_stack_name}"
   keypair             = ""
+  healthcheck_url     = "${var.healthcheck_url}"
 
   env_vars = "${
       map(

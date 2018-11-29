@@ -9,3 +9,4 @@ application_description = "Simple Node Demo"
 application_environment = "development"
 autoscale_min = 1
 autoscale_max = 2
+healthcheck_url = "/time"

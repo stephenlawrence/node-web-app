@@ -73,3 +73,8 @@ variable "region" {
 variable "max_availability_zones" {
   default = "2"
 }
+
+variable "healthcheck_url" {
+  default     = "/healthcheck"
+  description = "Application Health Check URL. Elastic Beanstalk will call this URL to check the health of the application running on EC2 instances"
+}
