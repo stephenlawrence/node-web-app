@@ -16,7 +16,7 @@ module "build" {
   repo_owner          = "${var.repo_owner}"
   repo_name           = "${var.repo_name}"
   branch              = "${var.branch}"
-  poll_source_changes = "false"
+  poll_source_changes = "true"
 
   # http://docs.aws.amazon.com/codebuild/latest/userguide/build-env-ref.html
   # http://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html
