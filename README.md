@@ -9,6 +9,10 @@ Create an IAM user and assign to group to use with your ~/.aws/credentials
 
 ## Standing It Up
 
+### tfvars
+
+Copy each of the tfvars.sample files and update the values accordingly. 
+
 ### Elastic Beanstalk
 `cd terraform/us-east-1-dev/elasticbeanstalk`
 
